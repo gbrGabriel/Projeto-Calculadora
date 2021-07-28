@@ -257,7 +257,6 @@ class CalcCalculator {
             if(!lastItem){
                 lastItem = (isOperator) ? this._lastOperator : this._lastNumber;
             }  
-
         return lastItem;
     }
 
